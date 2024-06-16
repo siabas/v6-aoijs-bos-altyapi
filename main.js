@@ -7,7 +7,7 @@ const { AoiClient, CustomEvent } = require("aoi.js")
 
 //Bot\\
 const client = new AoiClient({
-    token: "token"
+    token: "token",
     prefix: "+",
     intents: ["MessageContent", "Guilds", "GuildMessages"],
     events: ["onMessage", "onInteractionCreate"],
